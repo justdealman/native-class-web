@@ -1544,7 +1544,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 		padding:20px 12px 10px;
 	}
 	.about__main {
-		float:left;
+		float:none;
 		width:auto;
 		padding:0 8px 20px;
 	}
@@ -1561,7 +1561,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 		margin:24px 0 20px;
 	}
 	.about__programs {
-		float:left;
+		float:none;
 		width:auto;
 		padding:0;
 		margin:0 0 23px;
