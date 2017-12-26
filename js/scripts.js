@@ -63,6 +63,36 @@ $(function() {
 			variableWidth: true
 		});
 	});
+
+	$('.stats__grid').slick({
+		slidesToShow: 5,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 999,
+				settings: {
+					slidesToShow: 2,
+					adaptiveHeight: true
+				}
+			}, {
+				breakpoint: 639,
+				settings: {
+					slidesToShow: 1,
+					adaptiveHeight: true
+				}
+			}
+		]
+	});
 	
 	var counterOn = false;
 	$(document).on('scroll', function() {

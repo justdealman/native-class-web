@@ -1035,8 +1035,8 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 }
 .stats {
 	position:relative;
-	padding:41px 10px 6px;
-	margin:0 20px;
+	padding:41px 0 6px;
+	margin:0;
 	background:-moz-linear-gradient(top, rgba(0,0,0,0) 45%, rgba(0,0,0,0.03) 100%);
 	background:-webkit-linear-gradient(top, rgba(0,0,0,0) 45%,rgba(0,0,0,0.03) 100%);
 	background:linear-gradient(to bottom, rgba(0,0,0,0) 45%,rgba(0,0,0,0.03) 100%);
@@ -1055,6 +1055,42 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	position:relative;
 	z-index:1;
 	font-size:0;
+	padding:0 60px;
+}
+
+.stats__grid .slick-prev,
+.stats__grid .slick-next {
+	position:absolute;
+	top:50%;
+	z-index:6;
+	width:55px;
+	height:45px;
+	cursor:pointer;
+	margin-top:-29px;
+	background:none;
+}
+.stats__grid .slick-prev:before,
+.stats__grid .slick-next:before {
+	content:'';
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:35px;
+	height:25px;
+	background-image:url('../img/slick-arrows-blue.png');
+	background-repeat:no-repeat;
+}
+.stats__grid .slick-prev {
+	left:10px;
+}
+.stats__grid .slick-prev:before {
+	background-position:0 0;
+}
+.stats__grid .slick-next {
+	right:10px;
+}
+.stats__grid .slick-next:before {
+	background-position:-35px 0;
 }
 .stats__item {
 	display:inline-block;
@@ -1824,6 +1860,12 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	.copyright--author {
 		float:none;
 	}
+	.stats__grid .slick-prev {
+		left:2px;
+	}
+	.stats__grid .slick-next {
+		right:2px;
+	}
 }
 @media all and (max-width:639px) {
 	.header {
@@ -1846,5 +1888,8 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	}
 	.gallery__item {
 		width:100%;
+	}
+	.stats__grid {
+		padding:0;
 	}
 }
