@@ -81,14 +81,12 @@ $(function() {
 			{
 				breakpoint: 999,
 				settings: {
-					slidesToShow: 2,
-					adaptiveHeight: true
+					slidesToShow: 2
 				}
 			}, {
 				breakpoint: 639,
 				settings: {
-					slidesToShow: 1,
-					adaptiveHeight: true
+					slidesToShow: 1
 				}
 			}
 		]
@@ -133,6 +131,140 @@ $(function() {
 		if ( !$(e.target).closest('.menu-open').length && !$(e.target).closest('.mobile-menu').length ) {
 			menuClose();
 		}
+	});
+
+	$('.teachers-e__slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 999,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 639,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	$('.teachers-p__slider').slick({
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 999,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 639,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	$('.gallery-slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		arrows: true,
+		dots: true,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 999,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 639,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	$('.course-slider').slick({
+		slidesToShow: 1,
+		arrows: true,
+		dots: true,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1279,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 999,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 639,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+
+	$('.course-illusion__slider').slick({
+		slidesToShow: 1,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500
+	});
+
+	$('.docs__slider').slick({
+		slidesToShow: 6,
+		slidesToScroll: 6,
+		arrows: true,
+		dots: true,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500
 	});
 
 	function startApp() {

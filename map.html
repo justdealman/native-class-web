@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Native Class</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<!--<link href="./favicon.ico" rel="shortcut icon">-->
+	<link href="./css/style.css" rel="stylesheet">
+	<!--[if IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="panel">
+		<div class="panel__nav">
+			<a href="#">Главная</a>
+			<a href="#">Про Native class</a>
+			<a href="#">Наши школы и детские сады</a>
+			<a href="#">Технология Native Class</a>
+			<a href="#">Контакты</a>
+		</div>
+		<div class="panel__social">
+			<a href="#" class="facebook-icon"></a>
+			<a href="#" class="instagram-icon"></a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<span class="header--logo"></span>
+			<div class="header__rc">
+				<span class="header--ies">Authorized center</span>
+				<a href="tel:+ 74957815476" class="header--phone">+ 7 (495) 781-5476</a>
+				<button class="button header--request">Заявка на обучение</button>
+			</div>
+		</header>
+		<nav class="nav">
+			<a href="#">Курсы английского языка для детей и подростков</a>
+			<a href="#">Индивидуальное обучение</a>
+			<a href="#">Обучение за рубежом</a>
+			<a href="#">Лето 2018<sup>new</sup></a>
+		</nav>
+		<div class="breadcrumbs">
+			<ul>
+				<li><a href="#">Английский для детей</a></li>
+				<li>Преподаватели</li>
+			</ul>
+		</div>
+		<div class="map">
+			<span class="map--title">Native Class – мы там, где удобно Вам!</span>
+			<div class="map__filter">
+				<select class="input-standart">
+					<option disabled selected>Выберите школу</option>
+					<option>Школа 1</option>
+					<option>Школа 2</option>
+				</select>
+				<button class="map__filter--button">Показать все</button>
+			</div>
+			<div id="map--core"></div>
+			<script>
+			  function initMap() {
+				var center = {lat: 55.7072663, lng: 37.625840299999936};
+				var pin = {lat: 55.7072663, lng: 37.625840299999936};
+				var map = new google.maps.Map(document.getElementById('map--core'), {
+				  zoom: 14,
+				  center: center
+				});
+				var marker = new google.maps.Marker({
+				  position: pin,
+				  map: map
+				});
+			  }
+			</script>
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtuTcQHmg7lW9j5vP_-zvX7LeMW4IaHcI&callback=initMap">
+			</script>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer__row">
+			<div class="footer__col">
+				<img src="./img/logo-footer.png" width="177" height="107" class="footer--logo" alt="">
+				<span class="footer--phone"><a href="tel:+74957815476">+ 7 (495) 781 5476</a></span>
+				<span class="footer--address">115191, г. Москва, Гамсоновский<br> переулок, д. 2, стр. 1, офис 316</span>
+			</div>
+			<div class="footer__col footer__col_wide">
+				<span class="footer--title">Наши программы</span>
+				<ul class="footer__nav">
+					<li><a href="#">Индивидуальное обучение</a></li>
+					<li><a href="#">Курсы английский для детей 3-5 лет</a></li>
+					<li><a href="#">Курсы английский для детей 6-7 лет</a></li>
+					<li><a href="#">Курсы английский для детей 7-8 лет</a></li>
+					<li><a href="#">Курсы английский для детей 9-11 лет</a></li>
+					<li><a href="#">Курсы английский для подростков<br> 12-14 лет</a></li>
+					<li><a href="#">Курсы английский для подростков<br> 15-18 лет</a></li>
+					<li><a href="#">Английский для взрослых</a></li>
+					<li><a href="#">Корпоративное обучение</a></li>
+					<li><a href="#">Английский для медицинских работников</a></li>
+					<li><a href="#">Обучение за рубежом</a></li>
+					<li><a href="#">Гувернёр ребенку на лето 2018</a></li>
+					<li><a href="#">Native Class Camp 2018 в Подмосковье</a></li>
+					<li><a href="#">Native Class Camp 2018 в Москве</a></li>
+				</ul>
+			</div>
+			<div class="footer__col">
+				<span class="footer--title">О компании</span>
+				<ul class="footer__nav">
+					<li><a href="#">Эксперт в обучении английскому</a></li>
+					<li><a href="#">Почему Native Class</a></li>
+					<li><a href="#">Наши преподаватели</a></li>
+					<li><a href="#">Наши школы и детские сады</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">For teachers</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright">
+		<div class="copyright__row">
+			<span class="copyright--text">2012-2017 © ООО «Краун Кидс»</span>
+			<span class="copyright--author">Разработка сайта – <a href="http://letsrock.pro" target="_blank"><img src="./img/letsrock-logo.png" width="127" height="28" alt=""></a></span>
+		</div>
+	</div>
+	<script src="./js/libs.js"></script>
+	<script src="./js/scripts.js"></script>
+</body>
+</html>
