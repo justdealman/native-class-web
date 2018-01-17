@@ -132,7 +132,6 @@ $(function() {
 			menuClose();
 		}
 	});
-
 	$('.teachers-e__slider').slick({
 		slidesToShow: 3,
 		slidesToScroll: 3,
@@ -143,25 +142,20 @@ $(function() {
 		speed: 500,
 		responsive: [
 			{
-				breakpoint: 1279,
-				settings: {
-					slidesToShow: 4
-				}
-			},
-			{
 				breakpoint: 999,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 2,
+					slidesToScroll: 2
 				}
 			}, {
 				breakpoint: 639,
 				settings: {
-					slidesToShow: 1
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
 	});
-
 	$('.teachers-p__slider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 4,
@@ -174,23 +168,25 @@ $(function() {
 			{
 				breakpoint: 1279,
 				settings: {
-					slidesToShow: 4
+					slidesToShow: 4,
+					slidesToScroll: 4
 				}
 			},
 			{
 				breakpoint: 999,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 2,
+					slidesToScroll: 2
 				}
 			}, {
 				breakpoint: 639,
 				settings: {
-					slidesToShow: 1
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
 	});
-
 	$('.gallery-slider').slick({
 		slidesToShow: 3,
 		slidesToScroll: 3,
@@ -201,27 +197,40 @@ $(function() {
 		speed: 500,
 		responsive: [
 			{
-				breakpoint: 1279,
-				settings: {
-					slidesToShow: 4
-				}
-			},
-			{
 				breakpoint: 999,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 2,
+					slidesToScroll: 2
 				}
 			}, {
 				breakpoint: 639,
 				settings: {
-					slidesToShow: 1
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
 	});
-
 	$('.course-slider').slick({
 		slidesToShow: 1,
+		arrows: true,
+		dots: true,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500,
+		adaptiveHeight: true
+	});
+	$('.course-illusion__slider').slick({
+		slidesToShow: 1,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		cssEase: 'ease',
+		speed: 500
+	});
+	$('.docs__slider').slick({
+		slidesToShow: 6,
+		slidesToScroll: 6,
 		arrows: true,
 		dots: true,
 		infinite: true,
@@ -231,42 +240,32 @@ $(function() {
 			{
 				breakpoint: 1279,
 				settings: {
-					slidesToShow: 4
+					slidesToShow: 5,
+					slidesToScroll: 5
 				}
 			},
 			{
 				breakpoint: 999,
 				settings: {
-					slidesToShow: 2
+					slidesToShow: 4,
+					slidesToScroll: 4
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
 				}
 			}, {
 				breakpoint: 639,
 				settings: {
-					slidesToShow: 1
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
 	});
-
-	$('.course-illusion__slider').slick({
-		slidesToShow: 1,
-		arrows: true,
-		dots: false,
-		infinite: true,
-		cssEase: 'ease',
-		speed: 500
-	});
-
-	$('.docs__slider').slick({
-		slidesToShow: 6,
-		slidesToScroll: 6,
-		arrows: true,
-		dots: true,
-		infinite: true,
-		cssEase: 'ease',
-		speed: 500
-	});
-
 	function startApp() {
 		detectDevice();
 		if ( justSwitched ) {
