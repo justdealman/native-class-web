@@ -266,6 +266,30 @@ $(function() {
 			}
 		]
 	});
+
+	function setTeachersCards() {
+		$('.item-teacher__content').each(function() {
+			var t = $(this).find('.item-teacher__header');
+			$(this).css({
+				'-webkit-transform': 'translateY(-'+t.outerHeight()+'px)',
+				'transform': 'translateY(-'+t.outerHeight()+'px)'
+			});
+		});
+	}
+	$('.item-teacher').on('mouseenter', function() {
+		$(this).find('.item-teacher__content').css({
+			'-webkit-transform': 'translateY(-100%)',
+			'transform': 'translateY(-100%)'
+		});
+	});
+	$('.item-teacher').on('mouseleave', function() {
+		var t = $(this).find('.item-teacher__header');
+		$(this).find('.item-teacher__content').css({
+			'-webkit-transform': 'translateY(-'+t.outerHeight()+'px)',
+			'transform': 'translateY(-'+t.outerHeight()+'px)'
+		});
+	});
+	
 	function startApp() {
 		detectDevice();
 		if ( justSwitched ) {
@@ -286,6 +310,9 @@ $(function() {
 			}
 		}
 		setRatio();
+		if ( $('.item-teacher').length ) {
+			setTeachersCards();
+		}
 	}
 	startApp();
 	var lastWidth = $(window).width();
@@ -329,4 +356,5 @@ $(function() {
 			$(this).attr('placeholder', $(this).data('holder'));
 		});
 	});
+	$('input[type="checkbox"]').uniform();
 });
