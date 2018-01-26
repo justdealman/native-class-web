@@ -1537,6 +1537,16 @@ div.checker,div.checker span,div.radio{position:relative}div.checker,div.checker
 .teachers-p {
 	margin:0 20px 47px;
 }
+.teachers-p--header {
+	display:block;
+	color:#2e2e2e;
+	font-size:30px;
+	line-height:36px;
+	font-weight:600;
+	text-align:center;
+	padding:30px 0 0;
+	margin:0 0 37px;
+}
 .teachers-p--title {
 	display:block;
 	font-size:24px;
@@ -3305,10 +3315,17 @@ textarea.input-standart {
 	top:3px;
 }
 .stock-welcome {
-	min-height:400px;
+	display:table;
+	width:1240px;
+	width:calc(100% - 40px);
 	color:#ffffff;
-	padding:46px 30px 17px;
 	margin:0 20px;
+}
+.stock-welcome__row {
+	display:table-cell;
+	height:400px;
+	vertical-align:bottom;
+	padding:46px 30px 17px;
 }
 .stock-welcome--price {
 	display:block;
@@ -3330,7 +3347,7 @@ textarea.input-standart {
 }
 .stock-welcome--title {
 	display:block;
-	max-width:550px;
+	max-width:570px;
 	font-size:36px;
 	line-height:42px;
 	font-weight:800;
@@ -3441,16 +3458,20 @@ textarea.input-standart {
 	display:block;
 	min-height:440px;
 	color:#ffffff;
-	padding:28px 30px 10px;
+	padding:27px 30px 10px;
+}
+.item-stock__content {
+	min-height:331px;
+	margin:0 0 22px;
 }
 .item-stock--title {
 	display:block;
-	max-width:280px;
+	max-width:390px;
 	font-size:30px;
-	line-height:34px;
+	line-height:36px;
 	font-weight:800;
 	padding:0;
-	margin:0 0 20px;
+	margin:0 0 19px;
 }
 .item-stock ul {
 	max-width:280px;
@@ -3468,6 +3489,12 @@ textarea.input-standart {
 	line-height:22px;
 	font-weight:normal;
 	margin:0 0 3px;
+}
+.item-stock p {
+	max-width:350px;
+	font-size:16px;
+	line-height:22px;
+	margin:0 0 22px;
 }
 .item-stock__price {
 	font-size:0;
@@ -3510,6 +3537,23 @@ textarea.input-standart {
 	border:1px solid #ffffff;
 	-webkit-border-radius:4px;
 	border-radius:4px;
+}
+.item-stock--order {
+	display:inline-block;
+	min-width:224px;
+	color:#ffffff;
+	font-size:13px;
+	line-height:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:14px 24px;
+	margin:-26px 0 30px;
+	background:#e30e1c;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.5);
+	box-shadow:0 1px 0 rgba(0,0,0,0.5);
 }
 .stock-mail {
 	max-width:610px;
@@ -3918,6 +3962,286 @@ textarea.input-standart {
 }
 .item-tech-video:hover .video-icon {
 	background-color:rgba(0,0,0,0.7);
+}
+.medical-about {
+	text-align:center;
+	padding:60px 20px 41px;
+}
+.medical-about .title-h2 {
+	padding:0 0 18px;
+	margin:0 0 30px;
+}
+.medical-about .title-h2:after {
+	left:50%;
+	margin-left:-25px;
+}
+.medical-about__row {
+	font-size:0;
+	text-align:left;
+	padding:41px 10px 3px;
+	margin:0 0 35px;
+	background:#f3f3f3;
+}
+.medical-about__item {
+	display:inline-block;
+	width:25%;
+	padding:0 20px;
+	margin:0 0 37px;
+}
+.item-medical {
+	display:block;
+	text-align:center;
+}
+.item-medical-icon {
+	display:block;
+	width:150px;
+	height:150px;
+	margin:0 auto 15px;
+	background-color:#ffffff;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.08);
+	box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+.item-medical-icon_1 {
+	background-image:url('../img/medical-icon-1.png');
+}
+.item-medical-icon_2 {
+	background-image:url('../img/medical-icon-2.png');
+}
+.item-medical-icon_3 {
+	background-image:url('../img/medical-icon-3.png');
+}
+.item-medical-icon_4 {
+	background-image:url('../img/medical-icon-4.png');
+}
+.item-medical-icon_5 {
+	background-image:url('../img/medical-icon-5.png');
+}
+.item-medical-icon_6 {
+	background-image:url('../img/medical-icon-6.png');
+}
+.item-medical-icon_7 {
+	background-image:url('../img/medical-icon-7.png');
+}
+.item-medical-icon_8 {
+	background-image:url('../img/medical-icon-8.png');
+}
+.item-medical p {
+	color:#000000;
+	font-size:16px;
+	line-height:24px;
+	margin:0;
+}
+.medical-about--button {
+	display:inline-block;
+	min-width:224px;
+	color:#ffffff;
+	font-size:13px;
+	line-height:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:14px 24px;
+	margin:0 0 20px;
+	background:#e30e1c;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.5);
+	box-shadow:0 1px 0 rgba(0,0,0,0.5);
+}
+.medical-profit {
+	padding:46px 20px 81px;
+	margin:0 0 24px;
+}
+.medical-profit .title-h2 {
+	text-align:center;
+	padding:0 0 18px;
+	margin:0 0 40px;
+}
+.medical-profit .title-h2:after {
+	left:50%;
+	margin-left:-25px;
+}
+.medical-profit__row {
+	display:table;
+	width:100%;
+	max-width:830px;
+	margin:0 auto;
+}
+.medical-profit__content {
+	display:table-cell;
+	height:432px;
+	vertical-align:middle;
+}
+.medical-profit__content ul {
+	max-width:370px;
+	margin:0;
+}
+.medical-profit__content ul li {
+	position:relative;
+	color:#000000;
+	font-size:16px;
+	line-height:24px;
+	padding-left:43px;
+	margin:30px 0 0;
+}
+.medical-profit__content ul li:first-child {
+	margin-top:0;
+}
+.medical-profit__content ul li span {
+	position:absolute;
+	left:0;
+	top:-3px;
+	display:block;
+	min-width:28px;
+	height:28px;
+	color:#2e2e2e;
+	font-size:15px;
+	line-height:25px;
+	text-align:center;
+	padding:0 2px;
+	border:1px solid #0076a3;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+}
+.teachers-about {
+	padding:19px 20px 39px;
+}
+.teachers-about .title-h2 {
+	text-align:center;
+	padding:0 0 18px;
+	margin:0 0 51px;
+}
+.teachers-about .title-h2:after {
+	left:50%;
+	margin-left:-25px;
+}
+.teachers-about__row {
+	padding:33px 20px 39px;
+	margin:0 0 53px;
+	background:#e8eef0;
+}
+.teachers-about__content {
+	position:relative;
+	max-width:825px;
+	text-align:center;
+	padding:67px 120px;
+	margin:0 auto;
+}
+.teachers-about__content:before,
+.teachers-about__content:after {
+	content:'';
+	position:absolute;
+	width:110px;
+	height:74px;
+}
+.teachers-about__content:before {
+	left:0;
+	top:0;
+	background:url('../img/quote-open-icon.png') no-repeat 0 0;
+}
+.teachers-about__content:after {
+	right:0;
+	bottom:0;
+	background:url('../img/quote-close-icon.png') no-repeat 0 0;
+}
+.teachers-about__content p {
+	color:#2e2e2e;
+	font-size:22px;
+	line-height:36px;
+	margin:0;
+}
+.teachers-about--subtitle {
+	display:block;
+	color:#2e2e2e;
+	font-size:30px;
+	line-height:36px;
+	font-weight:600;
+	text-align:center;
+	padding:0;
+	margin:0 0 49px;
+}
+.teachers-about__table {
+	width:1260px;
+	width:calc(100% + 20px);
+	font-size:0;
+	margin:0 0 0 -10px;
+}
+.teachers-about__table ul {
+	margin:0;
+}
+.teachers-about__table ul li {
+	position:relative;
+	color:#2e2e2e;
+	padding-left:47px;
+	margin:0 0 27px;
+}
+.teachers-about__table ul li:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:-1px;
+	width:30px;
+	height:26px;
+	background:url('../img/check-icon-3.png') no-repeat 0 0;
+}
+.teachers-about__table--title {
+	display:block;
+	font-size:22px;
+	line-height:26px;
+	font-weight:600;
+	padding:0;
+	margin:0 0 9px;
+}
+.teachers-about__table p {
+	max-width:530px;
+	font-size:17px;
+	line-height:26px;
+	margin:0 0 10px;
+}
+.teachers-about__lc {
+	display:inline-block;
+	width:50%;
+	font-size:12px;
+	padding:0 20px 0 10px;
+}
+.teachers-about__lc ul {
+	margin:0 0 0 28px;
+}
+.teachers-about__lc p {
+	max-width:400px;
+}
+.teachers-about__rc {
+	display:inline-block;
+	width:50%;
+	font-size:12px;
+	padding:0 20px 0 10px;
+}
+.medical-mission {
+	padding:43px 30px 47px;
+	margin:0 0 36px;
+}
+.medical-mission__row {
+	max-width:1120px;
+	color:#ffffff;
+	text-align:center;
+	margin:0 auto;
+}
+.medical-mission--title {
+	display:block;
+	font-size:30px;
+	line-height:36px;
+	font-weight:600;
+	padding:0;
+	margin:0 0 21px;
+}
+.medical-mission p {
+	font-size:17px;
+	line-height:26px;
+	margin:0 0 21px;
 }
 
 /*desktop*/
