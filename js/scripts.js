@@ -290,6 +290,20 @@ $(function() {
 		});
 	});
 	
+	function techSort() {
+		if ( isMobile ) {
+			$('.item-benefit-tech[data-sort="3"]').detach().insertAfter($('.item-benefit-tech[data-sort="2"]').parent()).wrap('<div class="tech-benefits__item"></div>');
+		} else {
+			$('.item-benefit-tech[data-sort="3"]').detach().appendTo($('.tech-benefits__rc'));
+			if ( $('.tech-benefits__item').eq(2).is(':empty') ) {
+				$('.tech-benefits__item').eq(2).remove();
+			}
+		}
+	}
+	if ( $('.tech-benefits').length ) {
+		techSort();
+	}
+	
 	function startApp() {
 		detectDevice();
 		if ( justSwitched ) {
@@ -307,6 +321,9 @@ $(function() {
 			}
 			if ( $('body').hasClass('is-locked') ) {
 				unlockBody();
+			}
+			if ( $('.tech-benefits').length ) {
+				techSort();
 			}
 		}
 		setRatio();

@@ -3918,6 +3918,7 @@ textarea.input-standart {
 	width:28%;
 	font-size:12px;
 	padding:0 30px 0 20px;
+	margin:0 0 27px;
 }
 .tech-benefits__rc .item-benefit-tech {
 	max-width:290px;
@@ -4302,6 +4303,22 @@ textarea.input-standart {
 	}
 	.teachers-l__item {
 		padding:0 15px;
+	}
+	.tech-stats--num {
+		font-size:53px;
+		line-height:53px;
+	}
+	.tech-stats__grid {
+		padding:0 5px;
+	}
+	.tech-stats__item {
+		padding:0 15px;
+	}
+	.tech-benefits {
+		margin:0 0 30px;
+	}
+	.medical-about__item {
+		width:33.33%;
 	}
 }
 /*tablet*/
@@ -5501,6 +5518,434 @@ textarea.input-standart {
 	.request-form--agreement {
 		margin:2px auto 3px;
 	}
+	.tech-about {
+		padding:0 20px 4px; 
+	}
+	.tech-about--title {
+		font-size:32px;
+		line-height:36px;
+		padding:0 0 15px;
+		margin:0 0 24px;
+	}
+	.tech-about p {
+		line-height:24px;
+		margin-bottom:24px;
+	}
+	.tech-about--pic {
+		margin:24px 0 20px -20px;
+	}
+	.tech-stats__item {
+		width:50% !important;
+	}
+	.tech-stats--num {
+		margin:0 0 5px;
+	}
+	.tech-stats p {
+		line-height:24px;
+	}
+	.tech-stats {
+		padding:20px 0 4px;
+	}
+	.tech-reviews {
+		padding:20px 20px 5px;
+	}
+	.tech-reviews .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 30px;
+	}
+	.tech-reviews__item {
+		margin:0 0 20px;
+	}
+	.tech-reviews--video {
+		margin:0 0 18px;
+	}
+	.tech-reviews--name {
+		font-size:20px;
+		line-height:26px;
+		margin:0 0 16px;
+	}
+	.tech-reviews__quote {
+		padding:13px 19px 10px;
+		margin:0 0 25px;
+	}
+	.tech-reviews__quote p {
+		line-height:24px;
+	}
+	.tech-benefits {
+		padding:20px 20px 5px;
+		margin:0;
+	}
+	.tech-benefits .title-h2 span {
+		font-size:14px;
+		line-height:20px;
+		margin:0;
+	}
+	.tech-benefits .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 20px;
+	}
+	.tech-video .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 30px;
+	}
+	.tech-video {
+		padding:20px 20px 10px;
+	}
+	.tech-video__item {
+		width:50%;
+	}
+	.tech-video .title-h2 span {
+		font-size:14px;
+		line-height:20px;
+		margin:0;
+	}
+	.tech-benefits__grid {
+		display:block;
+		width:auto;
+	}
+	.tech-benefits__item {
+		width:100%;
+		padding:0 0 0 10px;
+		margin:0 0 20px;
+	}
+	.item-benefit-tech {
+		max-width:none;
+	}
+	.item-benefit-tech p {
+		line-height:24px;
+	}
+	.item-benefit-tech--num {
+		font-size:110px;
+		line-height:90px;
+	}
+	.item-benefit-tech {
+		min-height:90px;
+		padding:25px 0 0;
+	}
+	.tech-benefits__rc {
+		display:none;
+	}
+	.request-form p {
+		line-height:24px;
+		margin:0 0 24px;
+	}
+	.stock-welcome--title {
+		font-size:28px;
+		line-height:34px;
+		margin:0 0 18px;
+	}
+	.stock-welcome {
+		width:100%;
+		margin:0;
+	}
+	.stock-welcome--price {
+		color:#ffffff;
+	}
+	.stock-welcome__row:before {
+		content:'';
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.4);
+	}
+	.stock-welcome__row {
+		position:relative;
+		z-index:1;
+		height:290px;
+		padding:17px 20px 7px;
+	}
+	.stock-welcome__form input[type="text"] {
+		width:180px;
+		margin-right:10px;
+	}
+	.stock-welcome--price {
+		font-size:42px;
+		line-height:42px;
+		margin:0 0 14px;
+	}
+	.stock-welcome--price span {
+		font-size:20px;
+		line-height:26px;
+		margin:16px 8px 0 0;
+	}
+	.stock-welcome__row > * {
+		position:relative;
+		z-index:1;
+	}
+	.stock-welcome--agreement {
+		font-size:16px;
+	}
+	.stock-welcome--agreement .checker {
+		top:4px;
+	}
+	.stock-courses {
+		padding:20px 20px 10px;
+	}
+	.stock-courses .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 30px;
+	}
+	.item-stock {
+		background-position:90% 50% !important;
+	}
+	.item-stock {
+		position:relative;
+		padding:16px 20px 10px;
+	}
+	.item-stock:before {
+		content:'';
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.4);
+	}
+	.item-stock__content {
+		position:relative;
+		z-index:1;
+	}
+	.item-stock--button {
+		position:relative;
+		z-index:1;
+		margin:0 0 10px;
+	}
+	.item-stock--title {
+		font-size:26px;
+		line-height:30px;
+		margin:0 0 14px;
+	}
+	.item-stock ul {
+		margin:0 0 14px;
+	}
+	.item-stock ul li {
+		font-size:20px;
+		line-height:26px;
+		margin:0 0 12px;
+	}
+	.item-stock ul li span {
+		margin:0 0 1px;
+	}
+	.item-stock__price--num {
+		color:#ffffff;
+		font-size:36px;
+		line-height:36px;
+		text-align:left;
+	}
+	.item-stock__price--num span {
+		font-size:24px;
+		line-height:30px;
+		margin:0;
+	}
+	.item-stock__price--num {
+		display:block;
+	}
+	.item-stock__price--tip {
+		display:block;
+		max-width:none;
+		font-size:14px;
+		line-height:22px;
+		padding:0;
+		margin:5px 0 0;
+		border-left-width:0;
+	}
+	.item-stock__price {
+		margin:0 0 15px;
+	}
+	.item-stock {
+		min-height:0;
+	}
+	.item-stock__content {
+		min-height:310px;
+		margin:0 0 15px;
+	}
+	.stock-courses__grid {
+		margin-bottom:0;
+	}
+	.stock-mail {
+		max-width:600px;
+		padding:20px 20px 9px;
+		margin:0 auto 25px;
+	}
+	.stock-mail--title {
+		font-size:20px;
+		line-height:26px;
+		margin:0 0 20px;
+	}
+	.stock-mail--agreement {
+		font-size:16px;
+		line-height:22px;
+		margin:8px 0 10px;
+	}
+	.stock-mail--agreement .checker {
+		top:4px;
+	}
+	.stock-list {
+		padding:25px 20px 10px;
+	}
+	.stock-list__row {
+		width:auto;
+		margin:0;
+	}
+	.stock-list__lc {
+		display:block;
+		width:75%;
+		padding:0;
+		margin:0 0 20px;
+	}
+	.stock-list--date {
+		margin:0 0 13px;
+	}
+	.stock-list__content {
+		display:block;
+		width:auto;
+		padding:0;
+	}
+	.stock-list__content p {
+		line-height:24px;
+		margin:0 0 24px;
+	}
+	.stock-list__text {
+		min-height:0;
+		margin:0 0 24px;
+	}
+	.medical-about {
+		padding:20px 20px 5px;
+	}
+	.medical-about .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 25px;
+	}
+	.medical-about__row {
+		width:calc(100% + 40px);
+		padding:20px 5px 3px;
+		margin:0 0 20px -20px;
+	}
+	.medical-about__item {
+		width:50%;
+		padding:0 15px;
+		margin:0 0 20px;
+	}
+	.item-medical-icon {
+		width:120px;
+		height:120px;
+		margin:0 auto 12px;
+	}
+	.item-medical p {
+		font-size:15px;
+	}
+	.medical-profit {
+		padding:20px 20px 30px;
+		margin:0;
+	}
+	.medical-profit .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 30px;
+	}
+	.medical-profit__content ul li {
+		font-size:15px;
+		margin:24px 0 0;
+	}
+	.medical-profit__content {
+		height:320px;
+	}
+	.medical-profit__content ul {
+		max-width:50%;
+	}
+	.medical-profit__content ul li span {
+		font-size:14px;
+		padding-top:1px;
+	}
+	.item-stock--order {
+		position:relative;
+		z-index:1;
+		margin:-16px 0 10px;
+	}
+	.teachers-about {
+		padding:5px 20px 20px;
+	}
+	.teachers-about .title-h2 {
+		padding:0 0 15px;
+		margin:0 0 30px;
+	}
+	.teachers-about__row {
+		width:calc(100% + 40px);
+		padding:20px;
+		margin:0 0 20px -20px;
+	}
+	.teachers-about__content:before,
+	.teachers-about__content:after {
+		width:60px;
+		height:40px;
+		background-size:100% 100%;
+	}
+	.teachers-about__content {
+		max-width:none;
+		padding:20px 70px;
+	}
+	.teachers-about__content p {
+		font-size:16px;
+		line-height:24px;
+	}
+	.teachers-about--subtitle {
+		font-size:20px;
+		line-height:26px;
+		margin:0 0 30px;
+	}
+	.teachers-about__table {
+		width:auto;
+		margin:0 0 -10px;
+	}
+	.teachers-about__table--title {
+		font-size:18px;
+		line-height:24px;
+		margin:0 0 6px;
+	}
+	.teachers-about__table ul li:before {
+		top:1px;
+		width:24px;
+		height:21px;
+		background-size:100% 100%;
+	}
+	.teachers-about__table ul li {
+		padding-left:36px;
+		margin:0 0 20px;
+	}
+	.teachers-about__table p {
+		max-width:none;
+		font-size:15px;
+		line-height:24px;
+	}
+	.teachers-about__lc ul {
+		margin:0;
+	}
+	.teachers-about__lc,
+	.teachers-about__rc {
+		width:100%;
+		padding:0;
+	}
+	.medical-mission {
+		padding:20px 20px 15px;
+		margin:0;
+	}
+	.medical-mission--title {
+		font-size:24px;
+		line-height:30px;
+		margin:0 0 10px;
+	}
+	.medical-mission p {
+		font-size:15px;
+		line-height:24px;
+		margin:0 0 10px;
+	}
+	.teachers-p--header {
+		font-size:24px;
+		line-height:30px;
+		padding:20px 0 0;
+		margin:0 0 20px;
+	}
 }
 /*mmobile*/
 @media all and (max-width:639px) {
@@ -5725,5 +6170,98 @@ textarea.input-standart {
 		text-align:left;
 		padding:0 0 0 24px;
 		margin:0 10px;
+	}
+	.tech-stats__item {
+		width:100% !important;
+	}
+	.tech-reviews__item {
+		width:100%;
+	}
+	.tech-video__item {
+		width:100%;
+	}
+	.stock-welcome__row {
+		background-position:55% 50% !important;
+	}
+	.stock-welcome--price span {
+		display:block;
+	}
+	.stock-welcome--price {
+		font-size:36px;
+		line-height:36px;
+	}
+	.stock-welcome--title {
+		max-width:380px;
+		font-size:24px;
+		line-height:30px;
+	}
+	.stock-welcome__form input[type="text"] {
+		display:block;
+		width:100%;
+		max-width:280px;
+		margin-right:0;
+	}
+	.stock-courses__item {
+		width:100%;
+	}
+	.item-stock {
+		width:calc(100% + 40px);
+		margin-left:-20px;
+	}
+	.stock-mail {
+		max-width:none;
+		border-left-width:0;
+		border-right-width:0;
+		margin:0 0 -1px;
+	}
+	.stock-mail--agreement {
+		text-align:left;
+	}
+	.stock-mail .stock-welcome__form input[type="text"] {
+		display:block;
+		width:280px;
+		margin:0 auto 10px;
+	}
+	.stock-list__lc {
+		width:100%;
+	}
+	.medical-about__item {
+		width:100%;
+	}
+	.medical-profit__content ul {
+		max-width:none;
+	}
+	.medical-profit {
+		position:relative;
+		padding-bottom:20px;
+		background-position:76% 50% !important;
+	}
+	.medical-profit:before {
+		content:'';
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.4);
+	}
+	.medical-profit > * {
+		position:relative;
+		z-index:1;
+	}
+	.medical-profit .title-h2 {
+		color:#ffffff;
+	}
+	.medical-profit__content ul li {
+		color:#ffffff;
+	}
+	.medical-profit__content ul li span {
+		color:#ffffff;
+	}
+	.teachers-about__content {
+		padding:50px 0;
+	}
+	.teachers-about__content p {
+		font-size:15px;
 	}
 }
